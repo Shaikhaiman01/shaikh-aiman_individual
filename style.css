@@ -4,7 +4,7 @@
 	font-family: century Gothic;
 }
 header {
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../15.jpg);
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../2.jpg);
 	height :100vh;
 	background-size: cover ;
 	background-position: center
@@ -34,33 +34,14 @@ ul li.active a{
 	background-color:#fff;
 	color: #000 ;
 }
-.education img{
-	 float :left;
+.biodata img{
+    float :left;
 	position:absolute;
-	width :330px;  
+	width :350px;  
 	height :auto;
-	top:40%;
+	top:50%;
 	left:15%;
-	transform: translate(-50%,-50%)
-}
-.secondary img{
-    float :left;
-	position:absolute;
-	width :450px;  
-	height :auto;
-	top:38%;
-	left:50%;
-	transform: translate(-50%,-50%)
-}
-.university img{
-    float :left;
-	position:absolute;
-	width :330px;  
-	height :auto;
-	top:40%;
-	left:85%;
-	transform: translate(-50%,-50%)
-}
+	transform: translate(-50%,-50%);
 }
 .main{
 	max-width:1200px;
@@ -68,31 +49,21 @@ ul li.active a{
 }
 .title{
 	position:absolute;
-	top:10%;
-	left:0%;
+	top:50%;
+	left:50%;
 	transform: translate(-50%,-50%);
 }
-
 .title h1 {
 	color:#fff;
 	font-size:50px;
 }
 .title{
 	position:absolute;
-	top:8%;
-	left:10%;
-	transform: translate(-50%,-50%);
+	top:29%;
+	left:45%;
+	transform: translate(-40%,-40%);
 }
-.words h2 {
+.title p {
 	color:#fff;
 	font-size:20px;
 }
-
-.words{	
-	position:absolute;
-	top:70%;
-	left:60%
-	transform: translate(-50%,-50%);
-}
-
-
